@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DataStructures">
+      <UniqueIdentifier>{b419b6cf-2a68-4819-861f-81d77c3e4525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthEstimation">
+      <UniqueIdentifier>{675e3e44-a372-4fb7-ab7f-2479fe68f761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GlobalMapping">
+      <UniqueIdentifier>{766eb7c4-c41b-4a8a-aa7b-3240925e193e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IOWrapper">
+      <UniqueIdentifier>{e67f34a1-c545-4558-859c-f05c106f861f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tracking">
+      <UniqueIdentifier>{1d2458dc-2ea8-4607-814c-3aad7abefd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{237e7294-1539-4ea8-9c91-9a86f2e29e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LiveSlAMWrapper">
+      <UniqueIdentifier>{4ee6ee32-103b-4154-977f-35a21bee8f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preProcessHeader">
+      <UniqueIdentifier>{fa2c33fb-8bc6-47e5-b47e-a8565e2eb421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug util">
+      <UniqueIdentifier>{0bff4e8f-5517-4d8f-beb5-f34e79631600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TUM RGBD">
+      <UniqueIdentifier>{fb8d5610-73ff-4567-9b15-1d4b85d79705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tracking\DisField">
+      <UniqueIdentifier>{088ce5fb-7b82-49ff-9d63-37612f530310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\LSD\DataStructures\Frame.cpp">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\DataStructures\FrameMemory.cpp">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\DataStructures\FramePoseStruct.cpp">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\DepthEstimation\DepthMap.cpp">
+      <Filter>Source Files\DepthEstimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\DepthEstimation\DepthMapPixelHypothesis.cpp">
+      <Filter>Source Files\DepthEstimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\GlobalMapping\FabMap.cpp">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\GlobalMapping\g2oTypeSim3Sophus.cpp">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\GlobalMapping\KeyFrameGraph.cpp">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\GlobalMapping\TrackableKeyFrameSearch.cpp">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\IOWrapper\OpenCV\CVOutput3DWarpper.cpp">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\IOWrapper\displaySetting.cpp">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\IOWrapper\KeyFrameDisplay.cpp">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\IOWrapper\KeyFrameGraphDisplay.cpp">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\util\globalFuncs.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\util\settings.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\util\SophusUtil.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\util\Undistorter.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\Tracking\Relocalizer.cpp">
+      <Filter>Source Files\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\Tracking\SE3Tracker.cpp">
+      <Filter>Source Files\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\Tracking\Sim3Tracker.cpp">
+      <Filter>Source Files\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\Tracking\TrackingReference.cpp">
+      <Filter>Source Files\Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\main_on_images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\SlamSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\IOWrapper\ImageDisplay_OpenCV.cpp">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\preprocessHeaders.cpp">
+      <Filter>preProcessHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\util\NV21Img.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_util\MatrixVisualizer.cpp">
+      <Filter>Debug util</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_util\PerformAnalyzer.cpp">
+      <Filter>Debug util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\IOWrapper\TrajectoryDisplay.cpp">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LSD\Tracking\DisField\disField.cpp">
+      <Filter>Source Files\Tracking\DisField</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\LSD\DataStructures\Frame.h">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\DataStructures\FrameMemory.h">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\DataStructures\FramePoseStruct.h">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\DepthEstimation\DepthMap.h">
+      <Filter>Source Files\DepthEstimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\DepthEstimation\DepthMapPixelHypothesis.h">
+      <Filter>Source Files\DepthEstimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\GlobalMapping\FabMap.h">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\GlobalMapping\g2oTypeSim3Sophus.h">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\GlobalMapping\KeyFrameGraph.h">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\GlobalMapping\TrackableKeyFrameSearch.h">
+      <Filter>Source Files\GlobalMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\IOWrapper\OpenCV\CVOutput3DWarpper.h">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\IOWrapper\displaySetting.h">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\IOWrapper\ImageDisplay.h">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\IOWrapper\KeyFrameDisplay.h">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\IOWrapper\KeyFrameGraphDisplay.h">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\IOWrapper\Output3DWrapper.h">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\util\EigenCoreInclude.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\util\globalFuncs.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\util\IndexThreadReduce.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\util\settings.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\util\SophusUtil.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\util\Undistorter.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\Tracking\LGSX.h">
+      <Filter>Source Files\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\Tracking\Relocalizer.h">
+      <Filter>Source Files\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\Tracking\SE3Tracker.h">
+      <Filter>Source Files\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\Tracking\Sim3Tracker.h">
+      <Filter>Source Files\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\Tracking\TrackingReference.h">
+      <Filter>Source Files\Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\SlamSystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\LiveSLAMWrapper\LiveSLAMWrapper.h">
+      <Filter>Source Files\LiveSlAMWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\preprocessHeaders.h">
+      <Filter>preProcessHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\util\NV21Img.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TUM RGBD\FileOperator.h">
+      <Filter>TUM RGBD</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_util\DebugLog.h">
+      <Filter>Debug util</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_util\MatrixVisualizer.h">
+      <Filter>Debug util</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_util\PerformAnalyzer.h">
+      <Filter>Debug util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\IOWrapper\TrajectoryDisplay.h">
+      <Filter>Source Files\IOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LSD\Tracking\DisField\disField.h">
+      <Filter>Source Files\Tracking\DisField</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBDSLAM.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

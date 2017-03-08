@@ -1,0 +1,2 @@
+//#define RGBDSLAM
+//#define DISFIELD
